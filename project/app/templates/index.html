@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href={% static "css/style.css" %}>
+    <title>New Post!</title>
+  </head>
+  <body>
+    <h1 class="title">Создать статью</h1>
+    <form method="POST" class="form">
+      {% csrf_token %}
+      <div class="form">{{ form }}</div>
+      <input type="submit" class="btn" />
+    </form>
+  </body>
+</html>

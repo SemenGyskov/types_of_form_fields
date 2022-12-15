@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:80px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-left: 20px;
+}
+.btn{
+    margin-top: 10px;
+    padding:10px 40px;
+    background: purple;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 280px;
+}
+.title{
+    margin-left: 360px;
+    margin-top:50px;
+}
+.input[type="checkbox" i]{
+margin-top:-14px;
+margin-left:-128px;
+}
